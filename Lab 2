@@ -1,0 +1,7 @@
+# This will print the 5 times table
+number = 5
+
+print(f"The {number} Times Table:")
+for i in range(1, 11):  # This counts from 1 to 10
+    result = number * i
+    print(f"{number} x {i} = {result}")
