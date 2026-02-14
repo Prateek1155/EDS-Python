@@ -1,0 +1,6 @@
+age = int(input("Enter your age: "))
+
+if age >= 18:
+    print("Access granted. Welcome to the club!")
+else:
+    print("Access denied. You're a bit too young.")
