@@ -1,0 +1,9 @@
+def calculate_area(length, width):
+    return length * width
+
+# Now we call the function with different numbers
+room_one = calculate_area(10, 12)
+room_two = calculate_area(15, 8)
+
+print(f"Room 1 area: {room_one} sq ft")
+print(f"Room 2 area: {room_two} sq ft")
